@@ -1,0 +1,57 @@
+PARATEMERS OF THE FERTILITY MODEL
+
+FERTILITY PREFERENCES
+MEANS CHILD 1 HS     :    5.068954    3.635037
+MEANS CHILD 2 HS     :    1.786951   -6.442562
+MEANS CHILD 3 HS     :   -0.151137  -15.539406
+MEANS CHILD 1 CO     :    5.775273    4.846672
+MEANS CHILD 2 CO     :    3.059089   -0.000012
+MEANS CHILD 3 CO     :    0.052759  -14.631743
+STD                  :    3.070586   12.722068
+CORR                 :    0.802144
+PERSISTENCE          :    0.289715
+
+CHILD RELATED
+COST DISTRIB. (f/m)  :    0.693261    0.306739
+CHILD CARE COST      :    0.584079    0.419611    0.767030
+
+PARAMETERS AND OTHER STUFF
+MEAN WAGES (hs/co)          :    1.000000    1.500000
+PARTICIPATION COST          :    0.358086
+DISTRIBUTION (hs/co)        :    0.746600    0.253400
+ECON. OF SCALE              :    0.400000
+
+RSS:       540.749748
+
+
+! mean of child preferences
+mu(0, f, hs) =                5.06895443d0 ; mu(0, m, hs) =                3.63503709d0
+mu(1, f, hs) =                1.78695119d0 ; mu(1, m, hs) =               -6.44256185d0
+mu(2, f, hs) =               -0.15113675d0 ; mu(2, m, hs) =              -15.53940557d0
+
+mu(0, f, co) =                5.77527295d0 ; mu(0, m, co) =                4.84667182d0
+mu(1, f, co) =                3.05908870d0 ; mu(1, m, co) =               -0.00001244d0
+mu(2, f, co) =                0.05275858d0 ; mu(2, m, co) =              -14.63174255d0
+
+! variance of fertility preferences
+sig(f)   = (               3.07058582d0)**2
+sig(m)   = (              12.72206793d0)**2
+
+! correlation
+rho      =                0.80214353d0
+
+! persistence of child preferences
+pi       =                0.28971537d0
+
+! utility cost of children
+phi_u    =                1.00000000d0
+
+! ficticious child care wage
+w_y_base =                0.58407903d0
+
+! child care wage in cross country analysis
+w_y_cc(1)=                0.41961090d0
+w_y_cc(2)=                0.76702966d0
+
+! participation cost
+p_cost   =                0.35808630d0
